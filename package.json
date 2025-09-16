@@ -1,0 +1,32 @@
+{
+  "name": "wireframe-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djdeleon/wireframe-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/djdeleon/wireframe-ui/issues"
+  },
+  "homepage": "https://github.com/djdeleon/wireframe-ui#readme",
+  "dependencies": {
+    "inquirer": "^12.9.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17"
+  },
+  "bin": {
+    "wireframe-ui": "./src/cli/setup.js"
+  }
+}
